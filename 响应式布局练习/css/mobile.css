@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+.side-bar{
+	position: relative;
+	float: none;
+	width: 100%;
+}
+.side-bar .nav,.side-bar .tag-list{
+	text-align: center;
+}
+.main{
+	width: 100%;
+	float: none;
+	padding: 0 10px;
+}
+.main .article-list{
+	margin: 0;
+}
+.side-bar #menu:checked ~ .nav,
+.side-bar #menu:checked ~ .tag-list{
+	display: block;
+}
+.side-bar #menu,
+.side-bar .nav,
+.side-bar .tag-list{
+	display: none;
+}
+.side-bar .men{
+	position: absolute;
+	top:0;
+	right: 0;	
+}
+.side-bar .nav .item:hover,
+.side-bar .tag-list .item:hover{
+	background: rgba(0,0,0,.1);
+}
+.side-bar .men{
+	display: block;
+}
