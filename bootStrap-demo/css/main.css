@@ -1,0 +1,87 @@
+.navbar-brand{
+	background: url(../img/01.jpg);
+	width: 50px;
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.slide-bar-left .list-group-item{
+	border: 0;
+	border-radius: 3px;
+	margin-bottom: 7px;
+}
+.slide-bar-left .list-group-item.active{
+	background-color: orangered;
+}
+.news-list .news-list-item img{
+	display: block;
+	max-width: 100%;
+	border-radius: 3px;
+}
+.news-list-item .title{
+	font-weight:bold;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.news-list-item .info{
+	color: #999;
+}
+.actor{
+	display: inline-block !important;
+	margin-top: 10px;
+}
+.actor img{
+	margin-right: 5px;
+	display: inline-block !important;
+	width: 16px;
+	height: 16px;
+	border-radius: 100% !important;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration:none;
+	color: #337ab7;
+}
+.item-margin{
+	margin: 20px 0;
+}
+.item-margin:first-child{
+	margin-top: 0px;
+}
+.slide-bar-card{
+	background: rgba(0,0,0,.07);
+	margin-top: 15px;
+	padding: 10px 0;
+}
+.slide-bar-card img{
+	max-width: 100%;
+}
+.slide-bar-card .text-tltle{
+	font-size: 130%;
+	font-weight: bold;
+}
+.slide-bar-card .card-title,
+.card-body  .item{
+	padding: 10px 15px;
+}
+.slide-bar-card .card-body .item:hover{
+	background: rgba(0,0,0,0.05);
+}
+.slide-bar-card .card-title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.slide-bar-card .card-body .item .desc{
+	margin-top: 8px;
+	color: #999;
+}
+.navbar-default .container .navbar-nav a{
+	font-weight: bold;
+}
+#men,#menu{
+	display: none !important;
+}
